@@ -52,7 +52,7 @@ const Services = () => {
               <div className="icon">
                 <i className="bi bi-helmet-safety"></i>
               </div>
-              <h3>Фотоотчет</h3>
+              <h3>Фотоотчёт</h3>
               <p>выполненых работ</p>
               {/* <a href="service-details.html" className="readmore stretched-link">Learn more <i className="bi bi-arrow-right"></i></a> */}
             </div>
