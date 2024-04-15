@@ -1,20 +1,28 @@
 import React from 'react';
-import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 
 const AboutUs = () => {
   return (
     <section id="get-started" className="get-started section-bg">
       <Container>
         <Row className="justify-content-between gy-4">
-          <Col lg={6} className="d-flex align-items-center" data-aos="fade-up">
+          <Col lg={6} className="d-flex align-items-center">
             <div className="content">
               <h3>Ремонт квартир и домов в Будапеште и Венгрии </h3>
               <p>Электрика, сантехника, демонтаж, штукатурка и покраска стен и потолков, установка потолков из гипсокартона, заливка пола бетоном, установка ОСБ под паркет, ремонт, укладка ламината, паркета, укладка плитки, оклейка обоев, установка дверей, установка галереи из металла, дерева, установка светильников, доставка материала, газ, вывоз мусора.</p>
               <p>Наружные работы: фасад домов, деревянные террасы, укладка тротуарной плитки, устройство галерей с металлоконструкциями и деревом.</p>
             </div>
           </Col>
-          <Col lg={5} data-aos="fade">
-            <Form action="forms/quote.php" method="post" className="php-email-form">
+          <Col lg={6}>
+          <Col xs={6} md={4} className="d-flex" >
+            <div>
+              <Image src="/images/about_us.jpg" height={500}rounded />
+            </div>
+            <div className="ms-3">
+              <Image src="/images/floor.jpg" height={500}rounded width={300}/>
+            </div>
+        </Col>
+            {/* <Form action="forms/quote.php" method="post" className="php-email-form">
               <h3>Связаться с нами</h3>
               <p>Вы можете оставить заявку на нашем сайте или позвонить нам по телефону: +36 70 596 1704</p>
               <Row className="gy-3">
@@ -37,7 +45,7 @@ const AboutUs = () => {
                   <Button type="submit">Отправить</Button>
                 </Col>
               </Row>
-            </Form>
+            </Form> */}
           </Col>
         </Row>
       </Container>

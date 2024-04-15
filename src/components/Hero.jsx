@@ -16,10 +16,10 @@ const Hero = () => {
       <Container>
         <div className="row justify-content-center">
           <div className="col-lg-6 text-center">
-            <h2 data-aos="fade-down">Добро пожаловать <span>Remon4U</span></h2>
-            <p data-aos="fade-up">Комплексная бригада занимается ремонтом квартир и домов под ключ.
+            <h2>Добро пожаловать <span>Remont4u Active s.r.o.</span></h2>
+            <p>Комплексная бригада занимается ремонтом квартир и домов под ключ.
               Международный опыт более 17 лет.</p>
-            <a data-aos="fade-up" data-aos-delay="200" href="#get-started" className="btn-get-started">Детальнее</a>
+            <a href="#get-started" className="btn-get-started">Детальнее</a>
           </div>
         </div>
       </Container>
@@ -27,7 +27,7 @@ const Hero = () => {
 
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item >
-      <Image src="images/12114.jpg" fluid/>
+      <Image src="images/remont3.jpg" fluid/>
       </Carousel.Item>
       <Carousel.Item>
         <Image src="images/remont2.jpg" fluid/>

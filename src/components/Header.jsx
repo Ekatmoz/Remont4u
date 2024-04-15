@@ -1,11 +1,10 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Header = () => {
   return ( 
-    <Navbar expand="lg"  fixed='top' data-bs-theme="dark">
+    <Navbar expand="lg" fixed='top' variant="dark">
       <Container className='logo'>
         <Navbar.Brand href="#home">
         <img
@@ -24,17 +23,7 @@ const Header = () => {
             <Nav.Link href="#home" className='link'>O нас</Nav.Link>
             <Nav.Link href="#link" className='link'>Контакты</Nav.Link>
             <Nav.Link href="#link" className='link'>Галерея</Nav.Link>
-            <NavDropdown title="Отзывы" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="#link" className='link'>Отзывы</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
