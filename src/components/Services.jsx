@@ -1,20 +1,20 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { House } from 'react-bootstrap-icons';
+import { House, PersonCheckFill, Tools } from 'react-bootstrap-icons';
 
 const Services = () => {
   return ( 
     <section id="services" className="services section-bg">
-      <Container data-aos="fade-up">
+      <Container>
         <div className="section-header">
           <h2>Детальнее</h2>
-          <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos quam</p>
+          <p>Наша опытная команда профессионалов поможет Вам с расчетом всех работ.</p>
         </div>
         <Row className="gy-4">
           <Col lg={4} md={6}>
-            <div className="service-item position-relative">
+            <div className="service-item">
               <div className="icon">
-                <House style={{ fontSize: '40px', color: 'var(--color-secondary)' }}/>
+                <House className='i'/>
               </div>
               <h3>Точный кошторис</h3>
               <p>после замеров</p>
@@ -23,7 +23,7 @@ const Services = () => {
           <Col lg={4} md={6}>
             <div className="service-item position-relative">
               <div className="icon">
-                <i className="bi bi-arrow-up-from-ground-water"></i>
+              <Tools className='i'/>
               </div>
               <h3>Качественные материалы</h3>
               <p>известных брендов</p>
@@ -32,7 +32,7 @@ const Services = () => {
           <Col lg={4} md={6}>
             <div className="service-item position-relative">
               <div className="icon">
-                <i className="bi bi-compass-drafting"></i>
+              <PersonCheckFill className='i'/>
               </div>
               <h3>Ответственные специалисты</h3>
               <p>в своем напрвлении</p>
