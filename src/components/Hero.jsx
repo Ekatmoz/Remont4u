@@ -16,7 +16,7 @@ const Hero = () => {
       <Container>
         <div className="row justify-content-center">
           <div className="col-lg-6 text-center">
-            <h2>Добро пожаловать <span>Remont4U</span></h2>
+            <h2>Добро пожаловать <span>Remont4u Active s.r.o</span></h2>
             <p>Комплексная бригада занимается ремонтом квартир и домов под ключ.
               Международный опыт более 17 лет.</p>
             <a href="#get-started" className="btn-get-started">Детальнее</a>

@@ -1,6 +1,7 @@
 import { Container, Row, Col, ListGroup } from 'react-bootstrap';
 import { Facebook, Instagram, Linkedin } from 'react-bootstrap-icons';
 import { Link as ReactLink } from 'react-router-dom'; // Alias Link as ReactLink
+import MapComponent from './MapComponent';
 
 const Footer = () => {
   return (
@@ -39,12 +40,11 @@ const Footer = () => {
                 </ListGroup>
             </Col>
             <Col lg={6} md={3}>
-              map
+              <MapComponent/>
             </Col>
           </Row>
         </Container>
       </div>
-
       <div className="footer-legal text-center position-relative">
         <Container>
           <div className="copyright">
