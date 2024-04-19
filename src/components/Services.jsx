@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { House, PersonCheckFill, Tools } from 'react-bootstrap-icons';
+import { CameraFill, HouseCheckFill, PersonCheckFill, Rulers, ShieldFillCheck, Tools } from 'react-bootstrap-icons';
 
 const Services = () => {
   return ( 
@@ -14,7 +14,7 @@ const Services = () => {
           <Col lg={4} md={6}>
             <div className="service-item">
               <div className="icon">
-                <House className='i'/>
+                <HouseCheckFill className='i'/>
               </div>
               <h3>Точный кошторис</h3>
               <p>после замеров</p>
@@ -23,7 +23,7 @@ const Services = () => {
           <Col lg={4} md={6}>
             <div className="service-item position-relative">
               <div className="icon">
-              <Tools className='i'/>
+                <Tools className='i'/>
               </div>
               <h3>Качественные материалы</h3>
               <p>известных брендов</p>
@@ -32,7 +32,7 @@ const Services = () => {
           <Col lg={4} md={6}>
             <div className="service-item position-relative">
               <div className="icon">
-              <PersonCheckFill className='i'/>
+                <PersonCheckFill className='i'/>
               </div>
               <h3>Ответственные специалисты</h3>
               <p>в своем напрвлении</p>
@@ -41,7 +41,7 @@ const Services = () => {
           <Col lg={4} md={6}>
             <div className="service-item position-relative">
               <div className="icon">
-                <i className="bi bi-trowel-bricks"></i>
+                <Rulers className='i'/>
               </div>
               <h3>Бесплатные замеры</h3>
               <p>после заявки на замеры</p>
@@ -50,7 +50,7 @@ const Services = () => {
           <Col lg={4} md={6}>
             <div className="service-item position-relative">
               <div className="icon">
-                <i className="bi bi-helmet-safety"></i>
+                <CameraFill className='i'/>
               </div>
               <h3>Фотоотчёт</h3>
               <p>выполненых работ</p>
@@ -60,7 +60,7 @@ const Services = () => {
           <Col lg={4} md={6}>
             <div className="service-item position-relative">
               <div className="icon">
-                <i className="bi bi-arrow-up-from-ground-water"></i>
+                <ShieldFillCheck className='i'/>
               </div>
               <h3>Неизменность цены и терминов</h3>
               <p>чётко вкладываемся в сроки</p>
