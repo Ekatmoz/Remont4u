@@ -8,7 +8,16 @@ function Navigationbar() {
     <>
       <Navbar expand="lg" variant="dark" style={{ backgroundColor: 'rgba(49, 54, 63, 0.9)' }}>
         <Container className='logo'>
-          <Navbar.Brand href="#">Remont4u Active s.r.o<span>.</span></Navbar.Brand>
+          <Navbar.Brand href="#">
+            <img
+            src="/favicon.jpg"
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+            alt="Our logo"
+            style={{ filter: 'invert(100%)', marginRight: '5px' }}
+          />
+          Remont4u Active s.r.o<span>.</span></Navbar.Brand>
           <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" />
           <Navbar.Offcanvas
             id="offcanvasNavbar-expand-lg"

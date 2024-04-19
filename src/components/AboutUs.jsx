@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Container, Row, Col, Image } from 'react-bootstrap';
 
 const AboutUs = () => {
@@ -14,14 +14,15 @@ const AboutUs = () => {
             </div>
           </Col>
           <Col lg={6}>
-          <Col xs={6} md={4} className="d-flex" >
-            <div>
-              <Image src="/images/about_us.jpg" height={500}rounded />
-            </div>
-            <div className="ms-3">
-              <Image src="/images/floor.jpg" height={500}rounded width={300}/>
-            </div>
-        </Col>
+            <Row className="justify-content-center gy-4">
+              <Col xs={6} md={6}>
+                <Image src="/images/about_us.jpg" height={500} rounded />
+              </Col>
+              <Col xs={6} md={6}>
+                <Image src="/images/floor.jpg" height={500} rounded width={300} />
+              </Col>
+            </Row>
+          </Col>
             {/* <Form action="forms/quote.php" method="post" className="php-email-form">
               <h3>Связаться с нами</h3>
               <p>Вы можете оставить заявку на нашем сайте или позвонить нам по телефону: +36 70 596 1704</p>
@@ -46,7 +47,7 @@ const AboutUs = () => {
                 </Col>
               </Row>
             </Form> */}
-          </Col>
+          
         </Row>
       </Container>
     </section>
