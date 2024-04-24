@@ -6,20 +6,39 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { StarFill } from 'react-bootstrap-icons';
 import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
+import { useEffect, useState } from 'react';
 
 const Testimonials = () => {
+  const [slidesPerView, setSlidesPerView] = useState(2);
+
+  useEffect(() => {
+    const updateSlidesPerView = () => {
+      if (window.innerWidth <= 768) {
+        setSlidesPerView(1);
+      } else {
+        setSlidesPerView(2);
+      }
+    };
+    window.addEventListener('resize', updateSlidesPerView);
+    updateSlidesPerView();
+
+    return () => {
+      window.removeEventListener('resize', updateSlidesPerView);
+    }
+  }, []);
+
   return (
     <section id="testimonials" className="testimonials section-bg">
-      <div className="container" data-aos="fade-up">
+      <div className="container">
         <div className="section-header">
           <h2>Отзывы</h2>
-          <p>Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et autem uia reprehenderit sunt deleniti</p>
+          <p>Наши клиенты говорят за нас. Для нас важна обратная саязь во время и послк ремонта.</p>
         </div>
 
         <Swiper
           modules={[Navigation, Pagination, Autoplay, A11y]}
           spaceBetween={50}
-          slidesPerView={2}
+          slidesPerView={slidesPerView}
           pagination={{ clickable: true }}
           autoplay={{ 
             delay: 2500,
@@ -56,7 +75,7 @@ const Testimonials = () => {
                 </div>
                 <p>
                   <FaQuoteLeft className="quote-icon-left"/>
-                  Igazi pozitiv csalodas, aki lakast ujitott mar fel, erti mire gondolok. Precizek, pontosak, profik. Ujitottunk mar fel furdoszobat es egesz lakast is veluk es mindig nagyon hatekonyak voltak, nem voltak rejtett koltsegek, amit elore mondtak arat/idot (!) a teljes felujitasra, az maradt vegig! Csak ajanlani tudom!
+                    Igazi pozitiv csalodas, aki lakast ujitott mar fel, erti mire gondolok. Precizek, pontosak, profik. Ujitottunk mar fel furdoszobat es egesz lakast is veluk es mindig nagyon hatekonyak voltak, nem voltak rejtett koltsegek, amit elore mondtak arat/idot (!) a teljes felujitasra, az maradt vegig! Csak ajanlani tudom!
                   <FaQuoteRight className="quote-icon-right"/>
                 </p>
               </div>

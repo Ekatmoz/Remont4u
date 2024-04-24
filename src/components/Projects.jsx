@@ -33,7 +33,7 @@ const Projects = () => {
             </Col>
             <Col lg={4} md={6} className="portfolio-item filter-remodeling">
               <div className="portfolio-content h-100">
-                <img src="/images/bathroom.jpg" className="img-fluid" alt="" />
+                <img src="/images/review3.jpg" className="img-fluid" alt="" />
                 <div className="portfolio-info">
                   <h4>Укладка плитки</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -44,7 +44,7 @@ const Projects = () => {
             </Col>
             <Col lg={4} md={6} className="portfolio-item filter-remodeling">
               <div className="portfolio-content h-100">
-                <img src="/images/bathroom.jpg" className="img-fluid" alt="" />
+                <img src="/images/review2.jpg" className="img-fluid" alt="" />
                 <div className="portfolio-info">
                   <h4>Демонтаж</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -55,9 +55,9 @@ const Projects = () => {
             </Col>
             <Col lg={4} md={6} className="portfolio-item filter-remodeling">
               <div className="portfolio-content h-100">
-                <img src="/images/bathroom.jpg" className="img-fluid" alt="" />
+                <img src="/images/review1.jpg" className="img-fluid" alt="" />
                 <div className="portfolio-info">
-                  <h4>Фасад домов</h4>
+                  <h4>Ремонт</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
                   <a href="assets/img/projects/remodeling-1.jpg" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
                   <a href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>

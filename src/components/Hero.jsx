@@ -25,7 +25,7 @@ const Hero = () => {
               <FaViber style={{ color: 'white', fontSize: '2rem' }}/>
               <FaWhatsapp style={{ color: 'white', fontSize: '2rem'}}/>
               <FaTelegram style={{ color: 'white', fontSize: '2rem' }}/>
-              <p style={{ fontSize: '1rem' }}>+42949681130</p>
+              <p style={{ fontSize: '1.2rem' }}>+42949681130</p>
             <a href="#get-started" className="btn-get-started">Детальнее</a>
           </div>
         </div>
