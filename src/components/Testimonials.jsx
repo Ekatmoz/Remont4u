@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation, A11y } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -17,10 +17,14 @@ const Testimonials = () => {
         </div>
 
         <Swiper
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          modules={[Navigation, Pagination, Autoplay, A11y]}
           spaceBetween={50}
           slidesPerView={2}
           pagination={{ clickable: true }}
+          autoplay={{ 
+            delay: 2500,
+            disableOnInteraction: false
+           }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log('slide change')}
         >
@@ -62,31 +66,14 @@ const Testimonials = () => {
             <div className="testimonial-wrap">
               <div className="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" alt="" />
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <h3>Nat Kmk</h3>
+                <h4>2022, Будапешт</h4>
                 <div className="stars">
                   <StarFill/><StarFill/><StarFill/><StarFill/><StarFill/>
                 </div>
                 <p>
                   <FaQuoteLeft className="quote-icon-left"/>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <FaQuoteRight className="quote-icon-right"/>
-                </p>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="testimonial-wrap">
-              <div className="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" alt="" />
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <div className="stars">
-                  <StarFill/><StarFill/><StarFill/><StarFill/><StarFill/>
-                </div>
-                <p>
-                  <FaQuoteLeft className="quote-icon-left"/>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    Всё сделали очень качественно и с душой! Видно, что люди любят свое дело.
                   <FaQuoteRight className="quote-icon-right"/>
                 </p>
               </div>
