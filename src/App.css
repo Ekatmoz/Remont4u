@@ -140,6 +140,9 @@ a:hover {
   .hero .info {
     padding: 0 100px;
   }
+  .hero {
+    height: 100vh;
+  }
 }
 .hero .info h2 {
   color: #fff;
@@ -181,17 +184,34 @@ a:hover {
   color: #fff;
   border: 2px solid var(--color-primary);
 }
+.carousel-image-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
 
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .hero .info .btn-get-started:hover {
   background: var(--color-primary);
 }
 @media (max-width: 768px) {
   .hero .info h2 {
-    font-size: 30px;
+    font-size: 21px;
+  }
+  .hero .info p {
+    font-size: 15px;
+  }
+  .hero .info div {
+    width: 230px;
+    margin-right: 50px;
   }
   .hero .info .btn-get-started {
     font-weight: 200;
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 /*--------------------------------------------------------------

@@ -17,7 +17,7 @@ function Navigationbar() {
             alt="Our logo"
             style={{ filter: 'invert(100%)', marginRight: '5px' }}
           />
-          Remont4u Active s.r.o<span>.</span></Navbar.Brand>
+          Remont4u Active <span>s.r.o.</span></Navbar.Brand>
           <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" />
           <Navbar.Offcanvas
             id="offcanvasNavbar-expand-lg"

@@ -15,10 +15,9 @@ const Footer = () => {
                 <p>
                   Oktogon, Budapest VI. kerület,<br />
                   Hungary<br /><br />
-                  <strong>Phone:</strong> +36 (70) 596 1704<br />
+                  <strong>Phone:</strong> +421949681130<br />
                   <strong>Email:</strong> Remont4u@gmail.com<br />
                 </p>
-                {/* Use ReactLink instead of Link */}
                 <Col>
                   <div className="social-links d-flex mt-3">
                     <ReactLink to="https://www.facebook.com/Remont4U.Frolov" className="d-flex align-items-center justify-content-center"><Facebook /></ReactLink>
