@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 const Projects = () => {
   return (
     <section id="projects" className="projects">
-      <Container data-aos="fade-up">
+      <Container >
         <div className="section-header">
           <h2>Наши роботы</h2>
           <p>Наша опытная команда профессионалов поможет Вам с расчетом всех работ.</p>

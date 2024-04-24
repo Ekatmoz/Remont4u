@@ -1,6 +1,6 @@
 import { Container, Row, Col, ListGroup } from 'react-bootstrap';
-import { Facebook, Instagram, Linkedin } from 'react-bootstrap-icons';
-import { Link as ReactLink } from 'react-router-dom'; // Alias Link as ReactLink
+import { Facebook, Instagram, Play } from 'react-bootstrap-icons';
+import { Link as ReactLink } from 'react-router-dom';
 import MapComponent from './MapComponent';
 
 const Footer = () => {
@@ -13,8 +13,11 @@ const Footer = () => {
               <div className="footer-info">
                 <h3>Remont4u Active s.r.o</h3>
                 <p>
+                <strong>Oфис в Bенгрии:</strong><br/>
                   Oktogon, Budapest VI. kerület,<br />
                   Hungary<br /><br />
+                  <strong>Oфис в Словакии:</strong> <br/>
+                  Ružinovská 42, Bratislava <br/><br />
                   <strong>Phone:</strong> +421949681130<br />
                   <strong>Email:</strong> Remont4u@gmail.com<br />
                 </p>
@@ -22,7 +25,7 @@ const Footer = () => {
                   <div className="social-links d-flex mt-3">
                     <ReactLink to="https://www.facebook.com/Remont4U.Frolov" className="d-flex align-items-center justify-content-center"><Facebook /></ReactLink>
                     <ReactLink to="/instagram" className="d-flex align-items-center justify-content-center"><Instagram /></ReactLink>
-                    <ReactLink to="/linkedin" className="d-flex align-items-center justify-content-center"><Linkedin /></ReactLink>
+                    <ReactLink to="/linkedin" className="d-flex align-items-center justify-content-center"><Play /></ReactLink>
                   </div>
                 </Col>
               </div>
@@ -38,14 +41,12 @@ const Footer = () => {
                   <ListGroup.Item action href="#">Privacy policy</ListGroup.Item>
                 </ListGroup>
             </Col>
-            <Col lg={6} md={3}>
               <MapComponent/>
-            </Col>
           </Row>
         </Container>
       </div>
       <div className="footer-legal text-center position-relative">
-        <Container>
+        <Container >
           <div className="copyright">
             &copy; Copyright <strong><span>Remont4u Active s.r.o</span></strong>. All Rights Reserved
           </div>

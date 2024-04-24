@@ -26,7 +26,7 @@ function Navigationbar() {
             style={{ backgroundColor: 'rgba(49, 54, 63, 0.9)'}}
             className="text-white"
           >
-            <Offcanvas.Header closeButton>
+            <Offcanvas.Header closeButton closeVariant='white'>
               <Offcanvas.Title id="offcanvasNavbarLabel-expand-lg">
                 Remont4u Active s.r.o
               </Offcanvas.Title>
@@ -35,8 +35,8 @@ function Navigationbar() {
               <Nav className="justify-content-end flex-grow-1 pe-3">
                 <Nav.Link href="#get-started" className='link'>O НАС</Nav.Link>
                 <Nav.Link href="#footer" className='link'>КОНТАКТЫ</Nav.Link>
-                <Nav.Link href="#link" className='link'>ГАЛЕРЕЯ</Nav.Link>
-                <Nav.Link href="#link" className='link'>ОТЗЫВЫ</Nav.Link>
+                <Nav.Link href="#projects" className='link'>ГАЛЕРЕЯ</Nav.Link>
+                <Nav.Link href="#testimonials" className='link'>ОТЗЫВЫ</Nav.Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
