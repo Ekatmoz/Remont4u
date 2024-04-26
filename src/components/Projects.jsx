@@ -7,7 +7,7 @@ const Projects = () => {
       <Container >
         <div className="section-header">
           <h2>Наши роботы</h2>
-          <p>Наша опытная команда профессионалов поможет Вам с расчетом всех работ.</p>
+          <p>Наша опытная команда профессионалов по ремонту сделает Ваш дом уютным и стильным, сохранив его функциональность и комфорт.</p>
         </div>
 
         <Row className="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
@@ -22,7 +22,7 @@ const Projects = () => {
           <Row className="gy-4 portfolio-container">
             <Col lg={4} md={6} className="portfolio-item filter-remodeling">
               <div className="portfolio-content h-100">
-                <img src="/images/bathroom.jpg" className="img-fluid" alt="" />
+                <img src="/images/kitchen.jpg" className="img-fluid" alt="" />
                 <div className="portfolio-info">
                   <h4>Ремонт</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>

@@ -32,7 +32,8 @@ const Testimonials = () => {
       <div className="container">
         <div className="section-header">
           <h2>Отзывы</h2>
-          <p>Наши клиенты говорят за нас. Для нас важна обратная саязь во время и послк ремонта.</p>
+          <p>Наши клиенты говорят за нас.</p>
+          <p>Для нас важна обратная саязь во время и после ремонта.</p>
         </div>
 
         <Swiper
@@ -41,7 +42,7 @@ const Testimonials = () => {
           slidesPerView={slidesPerView}
           pagination={{ clickable: true }}
           autoplay={{ 
-            delay: 2500,
+            delay: 3000,
             disableOnInteraction: false
            }}
           onSwiper={(swiper) => console.log(swiper)}

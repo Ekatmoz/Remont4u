@@ -32,16 +32,18 @@ const Footer = () => {
             </Col>
 
             <Col lg={2} md={3} className="footer-links">
-              <h4>Useful Links</h4>
-                <ListGroup>
-                  <ListGroup.Item action href="#">Home</ListGroup.Item>
-                  <ListGroup.Item action href="#">About us</ListGroup.Item>
-                  <ListGroup.Item action href="#">Services</ListGroup.Item>
-                  <ListGroup.Item action href="#">Terms of service</ListGroup.Item>
-                  <ListGroup.Item action href="#">Privacy policy</ListGroup.Item>
+              <h4>Навигация</h4>
+                <ListGroup variant='flush'>
+                  <ListGroup.Item className='list-item' action href="#">Home</ListGroup.Item>
+                  <ListGroup.Item className='list-item' action href="#">About us</ListGroup.Item>
+                  <ListGroup.Item className='list-item' action href="#">Services</ListGroup.Item>
+                  <ListGroup.Item className='list-item' action href="#">Terms of service</ListGroup.Item>
+                  <ListGroup.Item className='list-item' action href="#">Privacy policy</ListGroup.Item>
                 </ListGroup>
             </Col>
+            <Col>
               <MapComponent/>
+            </Col>
           </Row>
         </Container>
       </div>
