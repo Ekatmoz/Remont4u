@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { Link } from 'react-router-dom'; 
 
 function Navigationbar() {
   return (
@@ -33,10 +34,10 @@ function Navigationbar() {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="#get-started" className='link'>O НАС</Nav.Link>
-                <Nav.Link href="#footer" className='link'>КОНТАКТЫ</Nav.Link>
-                <Nav.Link href="#projects" className='link'>ГАЛЕРЕЯ</Nav.Link>
-                <Nav.Link href="#testimonials" className='link'>ОТЗЫВЫ</Nav.Link>
+                <Link to="/#" className='nav-link link'>O НАС</Link>
+                <Link to="/contacts" className='nav-link link'>КОНТАКТЫ</Link>
+                <Link to="/gallery" className='nav-link link'>ГАЛЕРЕЯ</Link>
+                <Link to="/testimonials" className='nav-link link'>ОТЗЫВЫ</Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

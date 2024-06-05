@@ -5,8 +5,8 @@ import Gallery from './components/Gallery';
 import Home from './components/Home';
 import Navigationbar from './components/Navigationbar';
 import Projects from './components/Projects';
-import Services from './components/Services';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Testimonials from './components/Testimonials';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
               <Route path='/' element={<Home/>} />
               <Route path='/about-us' element={<AboutUs/>}/>
               <Route path='/projects' element={ <Projects/>}/>
-              <Route path='/services' element={ <Services/>}/>
+              <Route path='/testimonials' element={ <Testimonials/>}/>
               <Route path='/gallery' element={ <Gallery/>}/>
             </Routes>
           </main>

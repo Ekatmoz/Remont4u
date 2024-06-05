@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
 return (
@@ -24,9 +25,9 @@ return (
                <img src="/images/remonti.jpg" className="img-fluid" alt="" />
                <div className="portfolio-info">
                   <h4>Ремонтные работы</h4>
-                  <p>Посмотреть фото по ремонту и реконструкции</p>
-                  <a href="assets/img/projects/remonti.jpg" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <Link to='/gallery'>
+                     <p>Посмотреть фото по ремонту и реконструкции</p>
+                  </Link>
                </div>
             </div>
             </Col>
@@ -35,9 +36,9 @@ return (
                <img src="/images/metal.jpg" className="img-fluid" alt="" />
                <div className="portfolio-info">
                   <h4>Монтаж галерей из металлоконструкций</h4>
-                  <p>Посмотреть фото по ремонту и реконструкции</p>
-                  <a href="assets/img/projects/remodeling-1.jpg" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <Link to='/gallery'>
+                     <p>Посмотреть фото по ремонту и реконструкции</p>
+                  </Link>
                </div>
             </div>
             </Col>
@@ -46,9 +47,9 @@ return (
                <img src="/images/demontash.jpeg" className="img-fluid" alt="" />
                <div className="portfolio-info">
                   <h4>Демонтаж</h4>
-                  <p>Посмотреть фото</p>
-                  <a href="assets/img/projects/remodeling-1.jpg" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <Link to='/gallery'>
+                     <p>Посмотреть фото</p>
+                  </Link>
                </div>
             </div>
             </Col>
@@ -57,9 +58,9 @@ return (
                <img src="/images/review1.jpg" className="img-fluid" alt="" />
                <div className="portfolio-info">
                   <h4>Монтаж гипсокартонных потолков</h4>
-                  <p>Посмотреть фото</p>
-                  <a href="assets/img/projects/remodeling-1.jpg" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <Link to='/gallery'>
+                     <p>Посмотреть фото</p>
+                  </Link>
                </div>
             </div>
             </Col>
@@ -68,9 +69,9 @@ return (
                <img src="/images/bathroom.jpg" className="img-fluid" alt="" />
                <div className="portfolio-info">
                   <h4>Укладка плитки</h4>
-                  <p>Посмотреть фото</p>
-                  <a href="assets/img/projects/remodeling-1.jpg" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <Link to='/gallery'>
+                     <p>Посмотреть фото</p>
+                  </Link>
                </div>
             </div>
             </Col>
@@ -79,9 +80,9 @@ return (
                <img src="/images/houses.jpg" className="img-fluid" alt="" />
                <div className="portfolio-info">
                   <h4>Фасад домов</h4>
-                  <p>Посмотреть фото</p>
-                  <a href="assets/img/projects/houses.jpg" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a>
+                  <Link to='/gallery'>
+                     <p>Посмотреть фото</p>
+                  </Link>
                </div>
             </div>
             </Col>
