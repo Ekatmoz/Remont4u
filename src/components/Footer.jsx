@@ -13,42 +13,47 @@ const Footer = () => {
               <div className="footer-info">
                 <h3>Remont4u Active s.r.o</h3>
                 <p>
-                <strong>Oфис в Bенгрии:</strong><br/>
+                  <strong>Oфис в Bенгрии:</strong><br />
                   Oktogon, Budapest VI. kerület,<br />
                   Hungary<br /><br />
-                  <strong>Oфис в Словакии:</strong> <br/>
-                  Ružinovská 42, Bratislava <br/><br />
+                  <strong>Oфис в Словакии:</strong> <br />
+                  Ružinovská 42, Bratislava <br /><br />
                   <strong>Phone:</strong> +421949681130<br />
                   <strong>Email:</strong> Remont4u@gmail.com<br />
                 </p>
-                <Col>
-                  <div className="social-links d-flex mt-3">
-                    <ReactLink to="https://www.facebook.com/Remont4U.Frolov" className="d-flex align-items-center justify-content-center"><Facebook /></ReactLink>
-                    <ReactLink to="/instagram" className="d-flex align-items-center justify-content-center"><Instagram /></ReactLink>
-                    <ReactLink to="/linkedin" className="d-flex align-items-center justify-content-center"><Play /></ReactLink>
-                  </div>
-                </Col>
+                <div className="social-links d-flex mt-3">
+                  <ReactLink to="https://www.facebook.com/Remont4U.Frolov" className="d-flex align-items-center justify-content-center">
+                    <Facebook />
+                  </ReactLink>
+                  <ReactLink to="/instagram" className="d-flex align-items-center justify-content-center">
+                    <Instagram />
+                  </ReactLink>
+                  <ReactLink to="/linkedin" className="d-flex align-items-center justify-content-center">
+                    <Play />
+                  </ReactLink>
+                </div>
               </div>
             </Col>
 
             <Col lg={2} md={3} className="footer-links">
               <h4>Навигация</h4>
-                <ListGroup variant='flush'>
-                  <ListGroup.Item className='list-item' action href="#">Home</ListGroup.Item>
-                  <ListGroup.Item className='list-item' action href="#">About us</ListGroup.Item>
-                  <ListGroup.Item className='list-item' action href="#">Services</ListGroup.Item>
-                  <ListGroup.Item className='list-item' action href="#">Terms of service</ListGroup.Item>
-                  <ListGroup.Item className='list-item' action href="#">Privacy policy</ListGroup.Item>
-                </ListGroup>
+              <ListGroup variant='flush'>
+                <ListGroup.Item className='list-item' action href="#">Home</ListGroup.Item>
+                <ListGroup.Item className='list-item' action href="#">About us</ListGroup.Item>
+                <ListGroup.Item className='list-item' action href="#">Services</ListGroup.Item>
+                <ListGroup.Item className='list-item' action href="#">Terms of service</ListGroup.Item>
+                <ListGroup.Item className='list-item' action href="#">Privacy policy</ListGroup.Item>
+              </ListGroup>
             </Col>
-            <Col>
-              <MapComponent/>
+            
+            <Col lg={6} md={12}>
+              <MapComponent />
             </Col>
           </Row>
         </Container>
       </div>
       <div className="footer-legal text-center position-relative">
-        <Container >
+        <Container>
           <div className="copyright">
             &copy; Copyright <strong><span>Remont4u Active s.r.o</span></strong>. All Rights Reserved
           </div>

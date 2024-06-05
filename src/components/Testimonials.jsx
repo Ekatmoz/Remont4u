@@ -45,8 +45,6 @@ const Testimonials = () => {
             delay: 3000,
             disableOnInteraction: false
            }}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log('slide change')}
         >
           <SwiperSlide>
             <div id="testimonials" className="testimonial-wrap">
