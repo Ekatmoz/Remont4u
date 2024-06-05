@@ -134,6 +134,102 @@ return (
                </div>
             </div>
             </Col>
+            <Col lg={4} md={6} className="portfolio-item filter-remodeling">
+            <div className="portfolio-content h-100">
+               <img src="https://res.cloudinary.com/dtj7rhgwl/image/upload/v1717582288/20240415_101030_swotfh.jpg" className="img-fluid" alt="" />
+               <div className="portfolio-info">
+                  <h4>Монтаж галерей из металлоконструкций и дерева</h4>
+               </div>
+            </div>
+            </Col>
+            <Col lg={4} md={6} className="portfolio-item filter-remodeling">
+            <div className="portfolio-content h-100">
+               <img src="https://res.cloudinary.com/dtj7rhgwl/image/upload/v1717582293/20240415_111914_xnbfsc.jpg" className="img-fluid" alt="" />
+               <div className="portfolio-info">
+                  <h4>Монтаж галерей из металлоконструкций и дерева</h4>
+               </div>
+            </div>
+            </Col>
+            <Col lg={4} md={6} className="portfolio-item filter-remodeling">
+            <div className="portfolio-content h-100">
+               <img src="https://res.cloudinary.com/dtj7rhgwl/image/upload/v1717582295/Gipso_vfggr8.jpg" className="img-fluid" alt="" />
+               <div className="portfolio-info">
+                  <h4>Монтаж галерей из металлоконструкций и дерева</h4>
+               </div>
+            </div>
+            </Col>
+            <Col lg={4} md={6} className="portfolio-item filter-remodeling">
+            <div className="portfolio-content h-100">
+               <img src="https://res.cloudinary.com/dtj7rhgwl/image/upload/v1717582296/received_412782521645361_b91td6.jpg" className="img-fluid" alt="" />
+               <div className="portfolio-info">
+                  <h4>Ремонтные работы</h4>
+               </div>
+            </div>
+            </Col>
+            <Col lg={4} md={6} className="portfolio-item filter-remodeling">
+            <div className="portfolio-content h-100">
+               <img src="https://res.cloudinary.com/dtj7rhgwl/image/upload/v1717582295/IMG-02b96067591769571debdb74398d7237-V_oh0gze.jpg" className="img-fluid" alt="" />
+               <div className="portfolio-info">
+                  <h4>Ремонтные работы</h4>
+               </div>
+            </div>
+            </Col>
+            <Col lg={4} md={6} className="portfolio-item filter-remodeling">
+            <div className="portfolio-content h-100">
+               <img src="https://res.cloudinary.com/dtj7rhgwl/image/upload/v1717582296/received_338531102271984_lamh43.jpg" className="img-fluid" alt="" />
+               <div className="portfolio-info">
+                  <h4>Ремонтные работы</h4>
+               </div>
+            </div>
+            </Col>
+            <Col lg={4} md={6} className="portfolio-item filter-remodeling">
+            <div className="portfolio-content h-100">
+               <img src="https://res.cloudinary.com/dtj7rhgwl/image/upload/v1717582296/received_473278968595791_revjdz.jpg" className="img-fluid" alt="" />
+               <div className="portfolio-info">
+                  <h4>Ремонтные работы</h4>
+               </div>
+            </div>
+            </Col>
+            <Col lg={4} md={6} className="portfolio-item filter-remodeling">
+            <div className="portfolio-content h-100">
+               <img src="https://res.cloudinary.com/dtj7rhgwl/image/upload/v1717582293/FB_IMG_1679778000135_vzayuf.jpg" className="img-fluid" alt="" />
+               <div className="portfolio-info">
+                  <h4>Ремонтные работы</h4>
+               </div>
+            </div>
+            </Col>
+            <Col lg={4} md={6} className="portfolio-item filter-remodeling">
+            <div className="portfolio-content h-100">
+               <img src="https://res.cloudinary.com/dtj7rhgwl/image/upload/v1717582293/20240415_105359_x7uwg2.jpg" className="img-fluid" alt="" />
+               <div className="portfolio-info">
+                  <h4>Ремонтные работы</h4>
+               </div>
+            </div>
+            </Col>
+            <Col lg={4} md={6} className="portfolio-item filter-remodeling">
+            <div className="portfolio-content h-100">
+               <img src="https://res.cloudinary.com/dtj7rhgwl/image/upload/v1717582293/FB_IMG_1679777997251_suq6j3.jpg" className="img-fluid" alt="" />
+               <div className="portfolio-info">
+                  <h4>Ремонтные работы</h4>
+               </div>
+            </div>
+            </Col>
+            <Col lg={4} md={6} className="portfolio-item filter-remodeling">
+            <div className="portfolio-content h-100">
+               <img src="https://res.cloudinary.com/dtj7rhgwl/image/upload/v1717582294/FB_IMG_1679778008871_prev16.jpg" className="img-fluid" alt="" />
+               <div className="portfolio-info">
+                  <h4>Ремонтные работы</h4>
+               </div>
+            </div>
+            </Col>
+            <Col lg={4} md={6} className="portfolio-item filter-remodeling">
+            <div className="portfolio-content h-100">
+               <img src="https://res.cloudinary.com/dtj7rhgwl/image/upload/v1717582293/FB_IMG_1679777974066_d1qpwq.jpg" className="img-fluid" alt="" />
+               <div className="portfolio-info">
+                  <h4>Ремонтные работы</h4>
+               </div>
+            </div>
+            </Col>
          </Row>
       </Row>
    </Container>
