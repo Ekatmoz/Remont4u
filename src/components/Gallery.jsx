@@ -230,6 +230,78 @@ return (
                </div>
             </div>
             </Col>
+            <Col lg={4} md={6} className="portfolio-item filter-remodeling">
+            <div className="portfolio-content h-100">
+               <img src="https://res.cloudinary.com/dtj7rhgwl/image/upload/v1717582267/20230628_074614_nblnbr.jpg" className="img-fluid" alt="" />
+               <div className="portfolio-info">
+                  <h4>Ремонтные работы</h4>
+               </div>
+            </div>
+            </Col>
+            <Col lg={4} md={6} className="portfolio-item filter-remodeling">
+            <div className="portfolio-content h-100">
+               <img src="https://res.cloudinary.com/dtj7rhgwl/image/upload/v1717582262/20230626_075046_ejgzt6.jpg" className="img-fluid" alt="" />
+               <div className="portfolio-info">
+                  <h4>Ремонтные работы</h4>
+               </div>
+            </div>
+            </Col>
+            <Col lg={4} md={6} className="portfolio-item filter-remodeling">
+            <div className="portfolio-content h-100">
+               <img src="https://res.cloudinary.com/dtj7rhgwl/image/upload/v1717582271/20240124_103825_dz0j2u.jpg" className="img-fluid" alt="" />
+               <div className="portfolio-info">
+                  <h4>Ремонтные работы</h4>
+               </div>
+            </div>
+            </Col>
+            <Col lg={4} md={6} className="portfolio-item filter-remodeling">
+            <div className="portfolio-content h-100">
+               <img src="https://res.cloudinary.com/dtj7rhgwl/image/upload/v1717582273/20230626_074914_zwzpiq.jpg" className="img-fluid" alt="" />
+               <div className="portfolio-info">
+                  <h4>Ремонтные работы</h4>
+               </div>
+            </div>
+            </Col>
+            <Col lg={4} md={6} className="portfolio-item filter-remodeling">
+            <div className="portfolio-content h-100">
+               <img src="https://res.cloudinary.com/dtj7rhgwl/image/upload/v1717582269/20231102_120546_kcq6zb.jpg" className="img-fluid" alt="" />
+               <div className="portfolio-info">
+                  <h4>Ремонтные работы</h4>
+               </div>
+            </div>
+            </Col>
+            <Col lg={4} md={6} className="portfolio-item filter-remodeling">
+            <div className="portfolio-content h-100">
+               <img src="https://res.cloudinary.com/dtj7rhgwl/image/upload/v1717582266/20231104_122356_wccoz1.jpg" className="img-fluid" alt="" />
+               <div className="portfolio-info">
+                  <h4>Ремонтные работы</h4>
+               </div>
+            </div>
+            </Col>
+            <Col lg={4} md={6} className="portfolio-item filter-remodeling">
+            <div className="portfolio-content h-100">
+               <img src="https://res.cloudinary.com/dtj7rhgwl/image/upload/v1717582270/20231125_150757_z7ro3h.jpg" className="img-fluid" alt="" />
+               <div className="portfolio-info">
+                  <h4>Ремонтные работы</h4>
+               </div>
+            </div>
+            </Col>
+            <Col lg={4} md={6} className="portfolio-item filter-remodeling">
+            <div className="portfolio-content h-100">
+               <img src="https://res.cloudinary.com/dtj7rhgwl/image/upload/v1717582271/20240412_074225_benogv.jpg" className="img-fluid" alt="" />
+               <div className="portfolio-info">
+                  <h4>Ремонтные работы</h4>
+               </div>
+            </div>
+            </Col>
+            <Col lg={4} md={6} className="portfolio-item filter-remodeling">
+            <div className="portfolio-content h-100">
+               <img src="https://res.cloudinary.com/dtj7rhgwl/image/upload/v1717582284/20240412_074323_zdlaq4.jpg" className="img-fluid" alt="" />
+               <div className="portfolio-info">
+                  <h4>Ремонтные работы</h4>
+               </div>
+            </div>
+            </Col>
          </Row>
       </Row>
    </Container>

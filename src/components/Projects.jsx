@@ -14,10 +14,12 @@ return (
          <ul className="portfolio-flters" >
             <li className="filter-active">Ремонтные работы</li>
             <li>Укладка плитки</li>
-            <li>Демонтаж</li>
+            <li>Сантехнические работы</li>
             <li>Фасад домов</li>
             <li>Электромонтажные работы</li>
             <li>Штукатурка и покраска стен и потолков</li>
+            <li>Шпаклёвка и покраска стен и потолков</li>
+            <li>Монтаж гипсокартонных потолков</li>
          </ul>
          <Row className="gy-4 portfolio-container">
             <Col lg={4} md={6} className="portfolio-item filter-remodeling">
