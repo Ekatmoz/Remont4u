@@ -38,10 +38,10 @@ const Footer = () => {
             <Col lg={2} md={3} className="footer-links">
               <h4>Навигация</h4>
               <ListGroup variant='flush'>
-                <ListGroup.Item className='list-item' action href="#">Home</ListGroup.Item>
-                <ListGroup.Item className='list-item' action href="#">About us</ListGroup.Item>
-                <ListGroup.Item className='list-item' action href="#">Services</ListGroup.Item>
-                <ListGroup.Item className='list-item' action href="#">Terms of service</ListGroup.Item>
+                <ListGroup.Item className='list-item' action href="/">Home</ListGroup.Item>
+                <ListGroup.Item className='list-item' action href="/about-us">About us</ListGroup.Item>
+                <ListGroup.Item className='list-item' action href="https://www.facebook.com/Remont4U.Frolov">Facebook</ListGroup.Item>
+                <ListGroup.Item className='list-item' action href="#">TikTok</ListGroup.Item>
                 <ListGroup.Item className='list-item' action href="#">Privacy policy</ListGroup.Item>
               </ListGroup>
             </Col>

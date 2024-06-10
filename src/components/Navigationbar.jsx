@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Link } from 'react-router-dom'; 
+import { FaFacebook, FaTiktok } from 'react-icons/fa';
 
 function Navigationbar() {
   return (
@@ -38,6 +39,13 @@ function Navigationbar() {
                 <Link to="/contacts" className='nav-link link'>КОНТАКТЫ</Link>
                 <Link to="/gallery" className='nav-link link'>ГАЛЕРЕЯ</Link>
                 <Link to="/testimonials" className='nav-link link'>ОТЗЫВЫ</Link>
+                {/* Facebook Link */}
+                <Link to="https://www.facebook.com/Remont4U.Frolov" target="_blank" rel="noopener noreferrer" className="nav-link link">
+                  <FaFacebook style={{ fontSize: '1.5rem' }} />
+                </Link>
+                <Link target="_blank" rel="noopener noreferrer" className="nav-link link">
+                  <FaTiktok style={{ fontSize: '1.5rem' }}/>
+                </Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
