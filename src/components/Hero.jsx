@@ -24,7 +24,7 @@ return (
                <FaWhatsapp style={{ fontSize: '3rem', color: '#feb900'}}/>
                <FaTelegram style={{ fontSize: '3rem', color: '#feb900' }}/>
                </Col>
-               <h3 style={{ fontSize: '1.2rem', color: 'white', letterSpacing: '0.1rem' }}>+42949681130</h3>
+               <h3 style={{ fontSize: '1.2rem', color: 'white', letterSpacing: '0.1rem' }}>+38(097)798-85-96</h3>
                <a href="#get-started" className="btn-get-started">Детальнее</a>
             </div>
          </div>

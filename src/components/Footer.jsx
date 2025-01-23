@@ -18,7 +18,7 @@ const Footer = () => {
                   Hungary<br /><br />
                   <strong>Oфис в Словакии:</strong> <br />
                   Ružinovská 42, Bratislava <br /><br />
-                  <strong>Phone:</strong> +421949681130<br />
+                  <strong>Phone:</strong> +38(097)798-85-96<br />
                   <strong>Email:</strong> Remont4u@gmail.com<br />
                 </p>
                 <div className="social-links d-flex mt-3">
@@ -55,7 +55,7 @@ const Footer = () => {
       <div className="footer-legal text-center position-relative">
         <Container>
           <div className="copyright">
-            &copy; Copyright <strong><span>Remont4u Active s.r.o</span></strong>. All Rights Reserved
+            &copy; Copyright <strong><span>Remont</span></strong>. All Rights Reserved
           </div>
         </Container>
       </div>

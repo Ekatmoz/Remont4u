@@ -19,7 +19,7 @@ function Navigationbar() {
             alt="Our logo"
             style={{ filter: 'invert(100%)', marginRight: '5px' }}
           />
-          Remont4u Active <span>s.r.o.</span></Navbar.Brand>
+           <span>REMONT</span></Navbar.Brand>
           <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" />
           <Navbar.Offcanvas
             id="offcanvasNavbar-expand-lg"
@@ -30,7 +30,7 @@ function Navigationbar() {
           >
             <Offcanvas.Header closeButton closeVariant='white'>
               <Offcanvas.Title id="offcanvasNavbarLabel-expand-lg">
-                Remont4u Active s.r.o
+                REMONT
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
