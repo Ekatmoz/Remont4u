@@ -11,13 +11,13 @@ const Footer = () => {
           <Row>
             <Col lg={4} md={6}>
               <div className="footer-info">
-                <h3>Remont4u Active s.r.o</h3>
+                <h3>Remont</h3>
                 <p>
-                  <strong>Oфис в Bенгрии:</strong><br />
-                  Oktogon, Budapest VI. kerület,<br />
+                  <strong>Oфис в Ужгороде:</strong><br />
+                  {/* Oktogon, Budapest VI. kerület,<br />
                   Hungary<br /><br />
                   <strong>Oфис в Словакии:</strong> <br />
-                  Ružinovská 42, Bratislava <br /><br />
+                  Ružinovská 42, Bratislava <br /><br /> */}
                   <strong>Phone:</strong> +38(097)798-85-96<br />
                   <strong>Email:</strong> Remont4u@gmail.com<br />
                 </p>
