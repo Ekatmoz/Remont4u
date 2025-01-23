@@ -35,7 +35,7 @@ const Services = () => {
                 <PersonCheckFill className='i'/>
               </div>
               <h3>Ответственные специалисты</h3>
-              <p>в своем напрвлении</p>
+              <p>в своем направлении</p>
             </div>
           </Col>
           <Col lg={4} md={6}>
