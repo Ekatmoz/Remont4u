@@ -16,8 +16,8 @@ return (
       <Container>
          <div className="row justify-content-center">
             <div className="col-lg-6 text-center">
-               <h2>Добро пожаловать!</h2>
-               <p>Наша компания предоставляет услуги комплексных ремонтов под ключ, с самыми квалифицированными специалистами своего дела!</p>
+               <h2>Ласкаво просимо!</h2>
+               <p>Наша компанія пропонує послуги комплексних ремонтів "під ключ" із найкваліфікованішими фахівцями своєї справи!</p>
                {/* <p>Профессиональный ремонт квартир и домов под ключ. Наша комплексная бригада с международным опытом более 17 лет специализируется на полном спектре ремонтных услуг для вашего дома и квартиры.</p> */}
                <Col style={{ display: 'flex', justifyContent: 'space-around', marginBottom: '1rem' }}>
                <FaViber style={{ fontSize: '3rem', color: '#feb900' }}/>
@@ -25,7 +25,7 @@ return (
                <FaTelegram style={{ fontSize: '3rem', color: '#feb900' }}/>
                </Col>
                <h3 style={{ fontSize: '1.2rem', color: 'white', letterSpacing: '0.1rem' }}>+38(097)798-85-96</h3>
-               <a href="#get-started" className="btn-get-started">Детальнее</a>
+               <a href="#get-started" className="btn-get-started">Детальніше</a>
             </div>
          </div>
       </Container>
